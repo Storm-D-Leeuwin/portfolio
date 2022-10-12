@@ -1,0 +1,55 @@
+.secondContainer {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mySkillsText {
+    height: 25vh;
+    width: 100vw;
+    font-weight: 500;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySkills{
+    height: 75vh;
+    width: 100vw;
+    font-size: 20px;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.frontEnd, .backEnd {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#text, #HTML, #CSS, #JavaScript, #Java, #MySQL, #PHP {
+    background-size: cover;
+    padding-bottom: 10px;
+
+    height: 130px;
+    width: 130px;
+    overflow-y: hidden;
+}
+
+#text, #text2 {
+    height: 60px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
